@@ -1,0 +1,98 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: "Roboto",sans-serif;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: black;
+}
+/* Header */
+header {
+    background-color: #9F1010;
+    height: 80px;
+}
+
+ul {
+    list-style: none;
+    margin: 0;
+    margin-left: 100px;
+    padding: 0;
+    overflow: hidden;
+    font-family: Roboto;
+}
+
+ul li {
+    display: inline-block;
+}
+
+ul li a {
+    display: inline-block;
+    -webkit-text-fill-color: white;
+    text-align: center;
+    padding: 26px;
+    text-align: center;
+}
+/* Sección botones */
+button{
+	background-color: #CA3C25;
+	display: inline-block;
+	width: 32%;
+    border:0;
+    -webkit-text-fill-color: white;
+}
+button:hover{
+    background-color: #AB2E08;	
+}   
+
+/* Sección Imágenes  */
+.imgPanda {
+	box-sizing: content-box;
+	display: inline-block;
+	border :20px solid ;
+	height: 250px;
+	width: 250px;
+}
+ .editPandas{
+ 	height: 250px;
+	width: 250px;
+	filter: grayscale(1);
+ }
+
+ .btn{
+ 	float: right;
+ 	height: 15px;
+ 	width: 15px;
+    position: absolute;
+ 	z-index: 1000;
+ 	text-align: center;
+ }
+
+/* Sección Párrafos */
+.parrafos{
+    width :900px;
+    height: 700px;
+   padding: 10px;
+   margin: 0 auto;
+   color: white;
+   text-align: justify;
+}
+
+#parrafoUno{
+    float: left;
+    width :400px;
+    height: 300px;
+    display: block;
+    vertical-align: top;
+}
+
+#parrafoDos{
+    float: right;
+    width :400px;
+    height: 300px;
+    display: block;
+    vertical-align: top;
+}
+
